@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block titulo %}
+    blogApp | Login
+{% endblock %}
+
+{% block contenido %}
+
+{% load static %}
+<div class = "container-about">
+    <h2>blogApp | CoderHouse </h2>
+
+    <p>Proyecto final realizado por Micaela Soledad Troncoso</p>
+
+    <h2>About me...</h2>
+    <img src="{% static 'imgs/about-me.jpeg' %}" alt="" > 
+    </br>
+    <p>Me llamo Micaela Soledad Troncoso, soy técnica en administración de empresa, y busco poder introducirme en el mundo de la programación.
+        Tengo 28 años, y actualmente estoy terminando la cursada de Python en CoderHouse. En un futuro, tengo pensado seguir capacitandome en
+        manejo de datos, o en la ciencia detrás de los mismo
+    </p>
+
+</div>
+
+{% endblock %}
